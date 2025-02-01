@@ -3,7 +3,7 @@
 
 //1) (number) Variables
 
-//We put "let" before the variable name before defining it
+//To define a variable we put "let" before the variable name
 let x;
 x = 100;
 console.log(x);
