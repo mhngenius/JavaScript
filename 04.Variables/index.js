@@ -1,6 +1,5 @@
 //Basically we have these three types of variable in java script (The most important ones):
 
-
 //1) (number) Variables
 
 //To define a variable we put "let" before the variable name
