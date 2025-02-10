@@ -44,5 +44,5 @@ let isStudent = true;
 
 
 console.log(`Is this car for sale ? ${forSale}`);
-console.log(`secondGuy is online : ${online}`);
+console.log(`secondGuy is online : ${isOnline}`);
 console.log(`Enrolled? : ${isStudent}`);
