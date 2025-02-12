@@ -5,6 +5,8 @@ const countLabel = document.getElementById("countLabel");
 
 let count = 0;
 
+// ++ = +1 , -- = -1
+
 increaseBtn.onclick = function () {
     count++;
     countLabel.textContent = count;
