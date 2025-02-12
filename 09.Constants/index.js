@@ -1,5 +1,7 @@
 // Constants = variables which their value doesnt change for example:
 
+//Accpeting user input using "window.prompt"
+
 const PI = 3.14159;
 let radius;
 
