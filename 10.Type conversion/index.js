@@ -5,6 +5,7 @@
 
 let age = window.prompt("How old are you?");
 
+//Number method
 age = Number(age);
 
 age += 1;
