@@ -13,7 +13,7 @@ age += 1;
 console.log(age, typeof age);
 
 
-//convert errors
+//2)convert errors
 
 
 // let x = "pizza";
