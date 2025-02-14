@@ -3,6 +3,7 @@
 let age = 25;
 
 //To define an "if" statement , we write if (){} , in "()" we write the condition and in "{}" we write the action that we want from the statement to do if condition was true
+//"Else" is for when "if" condition is not true
 
 if (age >= 18) {
     console.log(`You are old enough to enter this site.`);
