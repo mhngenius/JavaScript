@@ -1,8 +1,6 @@
 //Ternary operator = simplified "if" and "else" statements
 
 
-
-
 let age = 21;
 //we write the condition then a "?" then what if it was true , then a ":" and after that what if it was false.
 let message = age >= 18 ? "You are an adult" : "you are a minor!";
