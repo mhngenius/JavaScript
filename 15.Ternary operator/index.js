@@ -4,7 +4,7 @@
 
 
 let age = 21;
-//we write the condition then a "?" then if it was true , then a ":" and after that if it was false.
+//we write the condition then a "?" then what if it was true , then a ":" and after that what if it was false.
 let message = age >= 18 ? "You are an adult" : "you are a minor!";
 console.log(message)
 
