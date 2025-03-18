@@ -1,4 +1,6 @@
-// For loops = another type of loops which you can specify the duration of loop
+// For loops = another type of loops which you can specify the duration of loop (it stops when the condition is not true anymore)
+
+// (a new variable ; condition ; the action if condition was true)
 
 for (let i = 0; i <= 2; i++) {
     console.log(`Hello`)
