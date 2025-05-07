@@ -1,39 +1,39 @@
-function generatePassword(length, includeLowercase, includeUppercase, includeNumbers, includeSymbols) {
-    const lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
-    const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    const numberChars = "0123456789";
-    const symbolChars = "!@#$%^&*()_+-=";
+//Callbacks = a function that is passed as an argument to antother function.
 
-    let allowedChars = "";
-    let password = "";
+hello(goodbye);//hello(wait); , hello(leave;
 
-    if (length <= 0) {
-        return "(Password length must be at least 1)";
-    }
-
-    if (!includeLowercase && !includeUppercase && !includeNumbers && !includeSymbols) {
-        return "(At least one character set must be selected)";
-    }
-
-    if (includeLowercase) allowedChars += lowercaseChars;
-    if (includeUppercase) allowedChars += uppercaseChars;
-    if (includeNumbers) allowedChars += numberChars;
-    if (includeSymbols) allowedChars += symbolChars;
-
-    for (let i = 0; i < length; i++) {
-        const randomIndex = Math.floor(Math.random() * allowedChars.length);
-        password += allowedChars[randomIndex];
-    }
-
-    return password;
+function hello(Callback) {
+    console.log("Hello!");
+    Callback();
 }
 
-const passwordLength = 12;
-const includeLowercase = true;
-const includeUppercase = true;
-const includeNumbers = true;
-const includeSymbols = true;
+function wait() {
+    console.log("Wait!")
+}
 
-const password = generatePassword(passwordLength, includeLowercase, includeUppercase, includeNumbers, includeSymbols);
-console.log(`Generated password: ${password}`);
+function leave() {
+    console.log("Leave!");
+}
 
+function goodbye() {
+    console.log("Goodbye!");
+}
+
+//callback exercise
+
+sum(displayPage, 1, 2); //sum(displayConsole, 1, 2);
+
+function sum(Callback, x, y) {
+    let result = x + y;
+    Callback(result);
+
+}
+
+function displayConsole(result) {
+    console.log(result);
+}
+
+function displayPage(result) {
+
+    document.getElementById("myH1").textContent = result;
+}
