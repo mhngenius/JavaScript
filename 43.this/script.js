@@ -1,3 +1,9 @@
+// this =refrence to the object where THIS is used
+//      (the object depends on the immediate context)
+//      person.name = this.name
+
+// "this" method doesn't work with arrow functions!!!
+
 // "this" refers to the object that is calling the method.
 // The value of "this" depends on the context in which it is used.
 // Arrow functions do NOT bind their own "this", so we use regular functions for object methods.
