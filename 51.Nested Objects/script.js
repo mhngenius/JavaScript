@@ -159,4 +159,3 @@ const minFruit = fruits.reduce((min, fruit) =>
   fruit.calories < min.calories ? fruit : min
 );
 console.log(minFruit);
-
