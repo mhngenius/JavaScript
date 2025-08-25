@@ -13,7 +13,7 @@ const person = {
   address: {                         // nested object (child object)
     street: "124 Conch St.",
     city: "Bikini Bottom",
-    country: "Int. Water"
+    country: "Int. Waters"
   }
 }
 
@@ -159,3 +159,4 @@ const minFruit = fruits.reduce((min, fruit) =>
   fruit.calories < min.calories ? fruit : min
 );
 console.log(minFruit);
+
